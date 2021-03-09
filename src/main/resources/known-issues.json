@@ -1,2 +1,9 @@
 {
+"TEST-1": {
+    "type": "Internal",
+    "assertionPattern": "[Expected: a string containing "/create-first-team" Actual: was "https://id.atlassian.com/signup?application=trello&continue=https://trello.com/auth/atlassian/callback?returnUrl=%252F%26display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&login_hint=truman.powlowski@example.com&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ=="]",
+    "storyPattern":"Registration",
+    "scenarioPattern": "< Sign Up scenario >",
+    "stepPattern":"Then the page with the URL containing '/create-first-team' is loaded"
+    }
 }
